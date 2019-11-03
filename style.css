@@ -1,0 +1,14 @@
+.erase {
+  display: inline-block;
+  background:
+  url(images/horan_b.jpg);
+  background-size: cover;
+
+}
+
+canvas {
+ background: transparent;
+
+
+
+}
