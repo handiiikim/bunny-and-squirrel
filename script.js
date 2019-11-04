@@ -14,45 +14,47 @@ img.onload = function () {
 
 var isPress = false;
 var old = null;
-canvas.addEventListener('mousedown', function (e){
-  isPress = true;
-  old = {x: e.offsetX, y: e.offsetY};
-});
-canvas.addEventListener('mousemove',  function (e){
-  if (isPress) {
-    var x = e.offsetX;
-    var y = e.offsetY;
-    ctx.globalCompositeOperation = 'destination-out';
-
-    ctx.beginPath();
-    ctx.arc(x, y, 10, 0, 2 * Math.PI);
-    ctx.fill();
-
-    ctx.lineWidth = 20;
-    ctx.beginPath();
-    ctx.moveTo(old.x, old.y);
-    ctx.lineTo(x, y);
-    ctx.stroke();
-
-    old = {x: x, y: y};
-
-  }
-});
-canvas.addEventListener('mouseup', function (e){
-  isPress = false;
-});
+// canvas.addEventListener('mousedown', function (e){
+//   isPress = true;
+//   old = {x: e.offsetX, y: e.offsetY};
+// });
+// canvas.addEventListener('mousemove',  function (e){
+//   if (isPress) {
+//     var x = e.offsetX;
+//     var y = e.offsetY;
+//     ctx.globalCompositeOperation = 'destination-out';
+//
+//     ctx.beginPath();
+//     ctx.arc(x, y, 10, 0, 2 * Math.PI);
+//     ctx.fill();
+//
+//     ctx.lineWidth = 20;
+//     ctx.beginPath();
+//     ctx.moveTo(old.x, old.y);
+//     ctx.lineTo(x, y);
+//     ctx.stroke();
+//
+//     old = {x: x, y: y};
+//
+//   }
+// });
+// canvas.addEventListener('mouseup', function (e){
+//   isPress = false;
+// });
 
 
 
 
 canvas.addEventListener('touchstart', function (e){
   isPress = true;
+  // console.log("hi");
   old = {x: e.offsetX, y: e.offsetY};
 });
 canvas.addEventListener('touchmove',  function (e){
   if (isPress) {
-    var x = e.offsetX;
-    var y = e.offsetY;
+    console.log("hi");
+    var x = e.touches[0].clientX;
+    var y = e.touches[0].clientY;
     ctx.globalCompositeOperation = 'destination-out';
 
     ctx.beginPath();
