@@ -2,14 +2,14 @@ int xpos = 500;
 int ypos = 500;
 
 void setup(){
-  size(1000,1000, P3D);
+  size(screen.width, screen.height, P3D);
   noStroke();
   //stroke(252, 229, 242);
-  fill(250,197,225);
+  fill(236, 234, 87);
 
 }
 void draw(){
-background (234, 130, 186);
+background (83, 100, 255, screen.width, screen.height);
    lights();
   pushMatrix();
    translate(xpos,ypos,5);
