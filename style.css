@@ -1,5 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 .trial {
 /* background-color: #000000; */
 
 
+}
+
+span {
+  display: none !important;
 }

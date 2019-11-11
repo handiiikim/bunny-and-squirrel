@@ -9,10 +9,9 @@ void setup(){
   //stroke(252, 229, 242);
 
 
-
 }
 void draw(){
-background (184, 250, 140, screen.width, screen.height);
+background (184, 250, 140);
    lights();
 
   pushMatrix();
@@ -24,7 +23,7 @@ background (184, 250, 140, screen.width, screen.height);
 
    metaBold = loadFont("Meta-Bold.ttf");
    textFont(metaBold, 32);
-   text("Haha", 0, 0);
+   text("Haha", 0, 0, 50);
    fill(83, 100, 255);
    popMatrix();
 
