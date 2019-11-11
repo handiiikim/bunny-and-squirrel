@@ -15,42 +15,42 @@ background (83, 100, 255, screen.width, screen.height);
    translate(xpos,ypos,5);
    rotateX(radians(mouseY%359.0));
    rotateY(radians(mouseX%359.0));
-   sphere(130);
+   sphere(30);
    popMatrix();
 
    pushMatrix();
     translate(xpos+500,ypos,5);
     rotateX(radians(mouseY%359.0));
     rotateY(radians(mouseX%359.0));
-    sphere(130);
+    sphere(30);
     popMatrix();
 
   pushMatrix();
    translate(xpos+250,ypos/2,5);
    rotateX(radians(mouseY%359.0));
    rotateY(radians(mouseX%359.0));
-   sphere(240);
+   sphere(140);
   popMatrix();
 
   pushMatrix();
    translate(xpos,ypos/50);
    rotateX(radians(mouseY%359.0));
    rotateY(radians(mouseX%359.0));
-   sphere(150);
+   sphere(50);
   popMatrix();
 
   pushMatrix();
    translate(xpos/2,ypos/2,5);
    rotateX(radians(mouseY%359.0));
    rotateY(radians(mouseX%359.0));
-   sphere(110);
+   sphere(70);
   popMatrix();
 
   pushMatrix();
    translate(xpos/4,ypos/2,5);
    rotateX(radians(mouseY%359.0));
    rotateY(radians(mouseX%359.0));
-   sphere(230);
+   sphere(30);
   popMatrix();
 
   pushMatrix();
@@ -63,7 +63,7 @@ background (83, 100, 255, screen.width, screen.height);
   translate(xpos,ypos,7);
   rotateX(radians(mouseY%359.0));
   rotateY(radians(mouseX%359.0));
-  sphere(130);
+  sphere(20);
   popMatrix();
 
 }
