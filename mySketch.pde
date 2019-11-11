@@ -1,5 +1,5 @@
-int xpos = 500;
-int ypos = 500;
+int xpos = 0;
+int ypos = 0;
 
 void setup(){
   size(screen.width, screen.height, P3D);
