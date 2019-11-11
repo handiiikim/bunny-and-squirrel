@@ -1,6 +1,5 @@
 int xpos = 0;
 int ypos = 300;
-String message = "hi";
 PFont f;
 
 void setup(){
@@ -24,7 +23,7 @@ background (184, 250, 140);
    metaBold = loadFont("Meta-Bold.ttf");
    textFont(metaBold, 32);
    fill(83, 100, 255);
-   text("Haha", 0, 0, 50);
+   text("네가", 0, 0, 50);
    popMatrix();
 
    pushMatrix();
@@ -38,7 +37,7 @@ background (184, 250, 140);
     metaBold = loadFont("Meta-Bold.ttf");
     textFont(metaBold, 32);
     fill(83, 100, 255);
-    text("Haha", 0, 0, 50);
+    text("머메이드", 0, 0, 50);
     popMatrix();
 
   pushMatrix();
@@ -52,7 +51,7 @@ background (184, 250, 140);
    metaBold = loadFont("Meta-Bold.ttf");
    textFont(metaBold, 32);
    fill(83, 100, 255);
-   text("Haha", 0, 0, 170);
+   text("사라지면", 0, 0, 170);
    popMatrix();
 
   pushMatrix();
@@ -66,7 +65,7 @@ background (184, 250, 140);
    metaBold = loadFont("Meta-Bold.ttf");
    textFont(metaBold, 32);
    fill(83, 100, 255);
-   text("Haha", 0, 0, 120);
+   text("흐릿해", 0, 0, 120);
    popMatrix();
 
   pushMatrix();
@@ -80,7 +79,7 @@ background (184, 250, 140);
    metaBold = loadFont("Meta-Bold.ttf");
    textFont(metaBold, 32);
    fill(83, 100, 255);
-   text("Haha", 0, 0, 100);
+   text("난", 0, 0, 100);
    popMatrix();
 
   pushMatrix();
@@ -94,7 +93,7 @@ background (184, 250, 140);
    metaBold = loadFont("Meta-Bold.ttf");
    textFont(metaBold, 32);
    fill(83, 100, 255);
-   text("Haha", 0, 0,50);
+   text("없어질", 0, 0,50);
    popMatrix();
 
   pushMatrix();
@@ -109,7 +108,7 @@ background (184, 250, 140);
    metaBold = loadFont("Meta-Bold.ttf");
    textFont(metaBold, 32);
    fill(83, 100, 255);
-   text("Haha", 0, 0,100);
+   text("지도 몰라", 0, 0,100);
    popMatrix();
 
   pushMatrix();
@@ -122,7 +121,7 @@ background (184, 250, 140);
   metaBold = loadFont("Meta-Bold.ttf");
   textFont(metaBold, 100);
   fill(83, 100, 255);
-  text("Haha", 0, 0, 25);
+  text("떠나지마", 0, 0, 25);
   popMatrix();
 
 }
