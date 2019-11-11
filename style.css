@@ -1,9 +1,5 @@
-.erase {
-  display: inline-block;
-  background: url(images/horan_b.jpg);
-  background-size: cover;
-}
+.trial {
+background-color: #ffffff;
 
-canvas {
- background-color: transparent ;
+
 }
