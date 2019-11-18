@@ -2,7 +2,7 @@ var bubbles = [];
 var img;
 
 function preload() {
-  img = loadImage('images/flower.jpeg')
+  img = loadImage('images/ladybug.png')
 }
 
 function setup() {
@@ -22,9 +22,9 @@ function draw () {
     if(bubbles[i].lifespan < 0) {
       bubbles.splice(i,1);
     }
-    
+
   }
-} 
+}
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);

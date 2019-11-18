@@ -1,0 +1,11 @@
+body {
+margin: 0;
+padding: 0;
+
+}
+
+.text {
+position: fixed;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 100px;
+}
