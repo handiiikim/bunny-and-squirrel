@@ -14,7 +14,7 @@ canvasContext.fillRect(0, 0, canvas.width, canvas.height);
 
 //INIT
 function init() {
-  document.addEventListener('mousemove', onMouseMove);
+  document.addEventListener('touchmove', onTouchMove);
   window.addEventListener('resize', resizeCanvases);
   resizeCanvases();
   tick();
@@ -28,12 +28,12 @@ function resizeCanvases() {
   canvas.height = lineCanvas.height = window.innerHeight;
 }
 
-function onMouseMove(event) {
-  points.push({
-    time: Date.now(),
-    x: event.clientX,
-    y: event.clientY
-  });
+function onTouchMove(event) {
+
+  var touch = event.touches[0];
+    var x = touch.clientX;
+    var y = touch.clientY;
+    draw(x, y);
 }
 
 function tick() {

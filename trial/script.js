@@ -5,13 +5,14 @@ var lineCanvasContext = lineCanvas.getContext('2d');
 var pointLifetime = 500;
 var points = [];
 
+
 //FILL CANVAS
 canvasContext.fillStyle="rgba(0, 0, 0, 0.5)";
 canvasContext.fillRect(0, 0, canvas.width, canvas.height);
 
 //INIT
 function init() {
-  document.addEventListener('mousemove', onMouseMove);
+  document.addEventListener('touchmove', onTouchMove);
   window.addEventListener('resize', resizeCanvases);
   resizeCanvases();
   tick();
@@ -25,11 +26,12 @@ function resizeCanvases() {
   canvas.height = lineCanvas.height = window.innerHeight;
 }
 
-function onMouseMove(event) {
+function onTouchMove(event) {
+var touch = event.touches[0];
   points.push({
     time: Date.now(),
-    x: event.clientX,
-    y: event.clientY
+    x: touch.clientX,
+    y: touch.clientY
   });
 }
 
