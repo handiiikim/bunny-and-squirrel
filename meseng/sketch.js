@@ -15,7 +15,7 @@ function mousePressed() {
 }
 
 function draw () {
-  background(0);
+  background(255);
   for (var i = 0; i < bubbles.length; i++) {
     bubbles[i].update();
     bubbles[i].display();

@@ -9,6 +9,7 @@ function Bubble(x,y) {
     // stroke(255);
     // fill(255, this.lifespan);
     // ellipse(this.x,this.y,48,48);
+    fill(255, this.lifespan);
   }
 
   this.update = function() {

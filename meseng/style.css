@@ -1,11 +1,12 @@
 body {
 margin: 0;
 padding: 0;
-
+position: fixed;
 }
 
 .text {
 position: fixed;
   font-family: 'Nanum Myeongjo', serif;
   font-size: 100px;
+  color: #ffffff;
 }
