@@ -5,6 +5,16 @@ body {
   background-size: cover;
 }
 
+#title {
+margin-left: 10vw;
+margin-top: 10vw;
+font-size: 50px;
+position: fixed;
+z-index: 999;
+text-align: center;
+
+}
+
 #canvas-overlay {
   position: absolute;
   top: 0;
