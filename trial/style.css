@@ -1,0 +1,42 @@
+body {
+  min-height: 100vh;
+  position: relative;
+    background-image: url("images/cloud.jpeg");
+  background-size: cover;
+}
+
+/* .erase {
+  display: inline-block;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  font-size: 100px;
+} */
+
+/* canvas {
+ background-color: transparent ;
+ position: fixed;
+ margin: 0;
+ padding: 0;
+ position: static;
+
+} */
+
+
+#canvas-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 98;
+  opacity: 1;
+}
+
+#canvas-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  opacity: 0.95;
+}
