@@ -49,14 +49,14 @@ function tick() {
 }
 
 function drawLineCanvas() {
-  var minimumLineWidth = 70;
-  var maximumLineWidth = 140;
+  var minimumLineWidth = 10;
+  var maximumLineWidth = 30;
   var lineWidthRange = maximumLineWidth - minimumLineWidth;
-  var maximumSpeed = 70;
+  var maximumSpeed = 50;
 
   lineCanvasContext.clearRect(0, 0, lineCanvas.width, lineCanvas.height);
   lineCanvasContext.lineCap = 'round';
-  lineCanvasContext.shadowBlur = 70;
+  lineCanvasContext.shadowBlur = 10;
   lineCanvasContext.shadowColor = '#000';
 
   for (var i = 1; i < points.length; i++) {
