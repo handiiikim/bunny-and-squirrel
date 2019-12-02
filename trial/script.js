@@ -49,15 +49,15 @@ function tick() {
 }
 
 function drawLineCanvas() {
-  var minimumLineWidth = 10;
-  var maximumLineWidth = 30;
+  var minimumLineWidth = 50;
+  var maximumLineWidth = 50;
   var lineWidthRange = maximumLineWidth - minimumLineWidth;
-  var maximumSpeed = 50;
+  var maximumSpeed = 20;
 
   lineCanvasContext.clearRect(0, 0, lineCanvas.width, lineCanvas.height);
   lineCanvasContext.lineCap = 'round';
   lineCanvasContext.shadowBlur = 10;
-  lineCanvasContext.shadowColor = '#000';
+  lineCanvasContext.shadowColor = 'rgb(218, 134, 24)';
 
   for (var i = 1; i < points.length; i++) {
     var point = points[i];
@@ -88,8 +88,8 @@ function getDistanceBetween(a, b) {
 function drawImageCanvas() {
   canvasContext.globalCompositeOperation = 'source-over';
   canvasContext.save();
-  canvasContext.fillStyle="rgb(0, 0, 0)";
-  canvasContext.globalAlpha = 0.009;
+  canvasContext.fillStyle="rgb(13, 255, 0)";
+  canvasContext.globalAlpha = 0.19;
   canvasContext.fillRect(0, 0, canvas.width, canvas.height);
   canvasContext.restore();
   canvasContext.globalCompositeOperation = 'destination-out';
