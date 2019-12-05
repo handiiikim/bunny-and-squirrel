@@ -1,11 +1,12 @@
 body {
-margin: 0;
-padding: 0;
+margin: 20;
+padding: 20;
 
 }
 
 .text {
-position: fixed;
-  font-family: 'Nanum Myeongjo', serif;
-  font-size: 100px;
+  margin-left: 20px;
+  position: fixed;
+  font-family: 'EB Garamond', serif;;
+  font-size: 50px;
 }
