@@ -1,7 +1,7 @@
 function Bubble(x,y) {
   this.x = x;
   this.y = y;
-  this.lifespan = 255;
+  this.lifespan = 34, 208, 93;
 
   this.display = function() {
     imageMode(CENTER);
