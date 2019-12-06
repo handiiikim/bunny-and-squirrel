@@ -28,3 +28,25 @@ canvas {
   height: auto;
 
 }
+
+.
+
+
+.heart {
+margin: 0;
+position: absolute;
+
+
+}
+
+.h1 {
+left: 100px;
+top: 50px;
+width:130px;
+height: 100px;
+background-size: cover;
+background-image: url(images/heart.gif);
+z-index: 1000000;
+}
+
+}
