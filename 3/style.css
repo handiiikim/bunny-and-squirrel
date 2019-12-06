@@ -29,12 +29,10 @@ canvas {
 
 }
 
-.
-
 
 .heart {
 margin: 0;
-position: absolute;
+position: fixed;
 
 
 }
