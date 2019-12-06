@@ -57,7 +57,7 @@ function drawLineCanvas() {
   lineCanvasContext.clearRect(0, 0, lineCanvas.width, lineCanvas.height);
   lineCanvasContext.lineCap = 'round';
   lineCanvasContext.shadowBlur = 10;
-  lineCanvasContext.shadowColor = 'transparent';
+  lineCanvasContext.shadowColor = 'rgba(240, 255, 241, 0.02)';
 
   for (var i = 1; i < points.length; i++) {
     var point = points[i];
@@ -72,7 +72,7 @@ function drawLineCanvas() {
     // Fade points as they age
     var age = Date.now() - point.time;
     var opacity = (pointLifetime - age) / pointLifetime;
-    lineCanvasContext.strokeStyle = 'rgba(255, 255, 255, ' + opacity  + ')';
+    lineCanvasContext.strokeStyle = 'rgba(240, 255, 241, 0.02), ' + opacity  + ')';
 
     lineCanvasContext.beginPath();
     lineCanvasContext.moveTo(previousPoint.x, previousPoint.y);
