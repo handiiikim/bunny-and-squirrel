@@ -49,15 +49,15 @@ function tick() {
 }
 
 function drawLineCanvas() {
-  var minimumLineWidth = 50;
-  var maximumLineWidth = 60;
+  var minimumLineWidth = 150;
+  var maximumLineWidth = 220;
   var lineWidthRange = maximumLineWidth - minimumLineWidth;
   var maximumSpeed = 10;
 
   lineCanvasContext.clearRect(0, 0, lineCanvas.width, lineCanvas.height);
   lineCanvasContext.lineCap = 'round';
   lineCanvasContext.shadowBlur = 10;
-  lineCanvasContext.shadowColor = 'rgb(255, 255, 255)';
+  lineCanvasContext.shadowColor = 'transparent';
 
   for (var i = 1; i < points.length; i++) {
     var point = points[i];
@@ -72,7 +72,7 @@ function drawLineCanvas() {
     // Fade points as they age
     var age = Date.now() - point.time;
     var opacity = (pointLifetime - age) / pointLifetime;
-    lineCanvasContext.strokeStyle = 'rgba(255, 255, 255, ' + opacity + ')';
+    lineCanvasContext.strokeStyle = 'rgba(255, 255, 255, ' + opacity  + ')';
 
     lineCanvasContext.beginPath();
     lineCanvasContext.moveTo(previousPoint.x, previousPoint.y);
