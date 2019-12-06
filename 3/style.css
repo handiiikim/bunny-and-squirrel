@@ -11,8 +11,11 @@ body{
   height: 100%;
   background-size: cover;
   position: fixed;
-  font-size: 90px;
+  font-size: 120px;
   z-index: 1;
+  font-family: font-family: 'Solway', serif;
+  color: rgb(96, 77, 255);
+
 
 }
 
@@ -32,19 +35,75 @@ canvas {
 
 .heart {
 margin: 0;
-position: fixed;
+
 
 
 }
 
 .h1 {
-left: 100px;
-top: 50px;
-width:130px;
-height: 100px;
+position: fixed;
+left: 5%;
+top: 5%;
+width:230px;
+height: 200px;
 background-size: cover;
 background-image: url(images/heart.gif);
 z-index: 1000000;
 }
 
+.h2{
+  position: fixed;
+  left: 5%;
+  top: 20%;
+  width:230px;
+  height: 200px;
+  background-size: cover;
+  background-image: url(images/heart.gif);
+  z-index: 1000000;
+}
+
+.h3{
+  position: fixed;
+  left: 5%;
+  top: 35%;
+  width:230px;
+  height: 200px;
+  background-size: cover;
+  background-image: url(images/heart.gif);
+  z-index: 1000000;
+}
+
+
+
+.h4 {
+position: fixed;
+left: 75%;
+top: 50%;
+width:230px;
+height: 200px;
+background-size: cover;
+background-image: url(images/heart.gif);
+z-index: 1000000;
+}
+
+.h5{
+  position: fixed;
+  left: 75%;
+  top: 65%;
+  width:230px;
+  height: 200px;
+  background-size: cover;
+  background-image: url(images/heart.gif);
+  z-index: 1000000;
+}
+
+.h6{
+  position: fixed;
+  left: 75%;
+  top: 80%;
+  width:230px;
+  height: 200px;
+  background-size: cover;
+  background-image: url(images/heart.gif);
+  z-index: 1000000;
 }
