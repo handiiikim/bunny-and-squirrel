@@ -70,7 +70,7 @@ color: rgb(173, 0, 255);
         top: 40px;
         width: 50px;
         height: 80px;
-        background: red;
+        background: rgb(43, 255, 0);
         border-radius: 50px 50px 0 0;
         transform: rotate(-45deg);
         transform-origin: 0 100%;

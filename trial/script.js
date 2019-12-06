@@ -88,7 +88,7 @@ function getDistanceBetween(a, b) {
 function drawImageCanvas() {
   canvasContext.globalCompositeOperation = 'source-over';
   canvasContext.save();
-  canvasContext.fillStyle="rgb(13, 255, 0)";
+  canvasContext.fillStyle="rgb(255, 245, 0)";
   canvasContext.globalAlpha = 0.19;
   canvasContext.fillRect(0, 0, canvas.width, canvas.height);
   canvasContext.restore();
