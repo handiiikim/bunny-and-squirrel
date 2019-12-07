@@ -6,6 +6,17 @@ body{
 
 }
 
+.title {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  color : rgb(48, 252, 42);
+  position: absolute;
+  font-size:68px;
+  z-index: 999;
+  font-family: 'Tomorrow', sans-serif;
+}
+
 .aboutall {
 margin: 10px;
 background-color: rgb(182, 66, 255);
@@ -46,11 +57,11 @@ canvas {
   left: 350px;
   display: inline-block;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 25px;
   margin-top: 15px;
   padding-left: 10px;
   background-color: white;
-  color : rgb(48, 252, 42);
+  color : rgb(30, 136, 41);
   position: absolute;
   font-size: 20px;
   z-index: 1;
