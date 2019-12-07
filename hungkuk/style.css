@@ -1,0 +1,65 @@
+body{
+  margin: 0px;
+  padding 0;
+  background-color: rgb(255, 91, 100);
+
+}
+
+.text {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: fixed;
+  font-size: 80px;
+  z-index: 1;
+  font-family: font-family: 'Poppins', sans-serif;
+  color: rgb(111, 0, 236);
+
+
+}
+
+canvas {
+ background-color: transparent ;
+ position: fixed;
+ margin: 0;
+ padding: 0;
+
+ z-index: 999;
+
+  width: 100%;
+  height: auto;
+
+}
+
+.divorce {
+  margin: 0;
+  top: 55vw;
+  left: 40vh;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: fixed;
+  font-size: 25px;
+  z-index: 1000000;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(28, 255, 0);
+
+}
+
+.why {
+  margin: 0;
+  top: 2vw;
+  left: 2vh;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: fixed;
+  font-size: 20px;
+  z-index: 1000000;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(28, 255, 0);
+
+}
