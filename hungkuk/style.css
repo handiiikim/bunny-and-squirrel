@@ -7,11 +7,12 @@ body{
 
 .text {
   display: inline-block;
+  top: -5vw;
   width: 100%;
   height: 100%;
   background-size: cover;
   position: fixed;
-  font-size: 80px;
+  font-size: 70px;
   z-index: 1;
   font-family:  'Poppins', sans-serif;
   color: rgb(111, 0, 236);
@@ -50,8 +51,8 @@ canvas {
 
 .hung {
   margin: 0;
-  top: 2vw;
-  left: 2vh;
+  top: 22vw;
+  left: 5vh;
   display: inline-block;
   width: 100%;
   height: 100%;
