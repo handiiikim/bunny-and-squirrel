@@ -1,6 +1,6 @@
 body{
   margin: 0px;
-  padding 0;
+  padding: 0;
   background-color: rgb(255, 91, 100);
 
 }
@@ -13,7 +13,7 @@ body{
   position: fixed;
   font-size: 80px;
   z-index: 1;
-  font-family: font-family: 'Poppins', sans-serif;
+  font-family:  'Poppins', sans-serif;
   color: rgb(111, 0, 236);
 
 
@@ -32,7 +32,7 @@ canvas {
 
 }
 
-.divorce {
+.butterfly {
   margin: 0;
   top: 55vw;
   left: 40vh;
@@ -48,7 +48,7 @@ canvas {
 
 }
 
-.why {
+.hung {
   margin: 0;
   top: 2vw;
   left: 2vh;
