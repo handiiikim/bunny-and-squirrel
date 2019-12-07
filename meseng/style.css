@@ -7,6 +7,6 @@ position: fixed;
 .text {
 position: fixed;
   font-family: 'Nanum Myeongjo', serif;
-  font-size: 100px;
-  color: #ffffff;
+  font-size: 70px;
+  color: rgb(166, 166, 255);
 }
