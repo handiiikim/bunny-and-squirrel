@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   padding 0;
-  background-color: rgb(250, 255, 0)
+  background-color: rgb(96, 77, 255);
 
 }
 
@@ -11,10 +11,10 @@ body{
   height: 100%;
   background-size: cover;
   position: fixed;
-  font-size: 120px;
+  font-size: 80px;
   z-index: 1;
   font-family: font-family: 'Solway', serif;
-  color: rgb(96, 77, 255);
+  color: rgb(250,255,0);
 
 
 }
