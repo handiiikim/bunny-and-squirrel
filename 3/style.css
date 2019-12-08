@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   padding: 0;
-  background-color: rgb(96, 77, 255);
+  background-color: rgb(145, 36, 63);
 
 }
 
@@ -14,7 +14,7 @@ body{
   font-size: 80px;
   z-index: 1;
   font-family: 'Solway', serif;
-  color: rgb(250,255,0);
+  color: rgb(52, 158, 145);
 
 
 }
@@ -41,7 +41,7 @@ canvas {
   height: 100%;
   background-size: cover;
   position: fixed;
-  font-size: 80px;
+  font-size: 70px;
   z-index: 1000000;
   font-family: font-family: 'Solway', serif;
   color: rgb(28, 255, 0);
@@ -50,14 +50,14 @@ canvas {
 
 .why {
   margin: 0;
-  top: 55vw;
+  top: 52vw;
   left: 2vh;
   display: inline-block;
   width: 100%;
   height: 100%;
   background-size: cover;
   position: fixed;
-  font-size: 80px;
+  font-size: 70px;
   z-index: 1000000;
   font-family: font-family: 'Solway', serif;
   color: rgb(28, 255, 0);
