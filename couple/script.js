@@ -58,10 +58,10 @@ canvas.addEventListener('touchmove',  function (e){
     ctx.globalCompositeOperation = 'destination-out';
 
     ctx.beginPath();
-    ctx.arc(x, y, 10, 0, 2 * Math.PI);
+    ctx.arc(x, y, 30, 0, 2 * Math.PI);
     ctx.fill();
 
-    ctx.lineWidth = 20;
+    ctx.lineWidth = 30;
     ctx.beginPath();
     ctx.moveTo(old.x, old.y);
     ctx.lineTo(x, y);

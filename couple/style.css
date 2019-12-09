@@ -8,6 +8,8 @@ body {
 }
 
 .erase {
+  width: 100%;
+  height: 100%;
   position: fixed;
   margin-left: 30px;
   font-family: 'EB Garamond', serif;
